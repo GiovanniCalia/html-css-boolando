@@ -16,8 +16,7 @@ body::after{
 
 body{
     width: 1000px;
-    margin: 20px auto;
-    
+    margin: 20px auto; 
 }
 
 .contenitore{
@@ -29,6 +28,7 @@ body{
 .secondo, .quinto{
     margin: 0 10px;
 }
+
 .immagine{
     width: 100%;
 }
@@ -52,25 +52,27 @@ body{
 
 .background-rosso{
     background-color: rgb(236, 0, 55);
-    padding: .2em;
+    padding: .3em;
 }
 
 .background-verde{
     background-color: rgb(2, 136, 89);
-    padding: .2em 0;
+    padding: .3em;
 }
 
-.levi, h1{
-    font-size: 90%;
+h1{
+   font-size: 90%;
 }
 
-.levi{
+.scritta-piccola{
     font-family: 'Roboto', sans-serif;
+    font-size: 70%;
 }
 
 div div{
     margin-top: 0.7em;
 }
+
 .red{
      color: red;
 }
@@ -81,4 +83,16 @@ div div{
 
 .quarto, .quinto, .sesto{
     margin-top: 2em;
+}
+
+.contenitore:hover .immagine2{
+    display: block;
+}
+
+.immagine2{
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
