@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+body{
+    width: 1000px;
+    border: 1px solid black;
+    margin: 20px auto;
+    
+}
+
+.contenitore{
+    width: 300px;
+    float: left;
+    position: relative;
+}
+
+.prima-immagine{
+    width: 100%;
+}
+
+.contenitore .heart{
+    padding: .7em;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div div{
+    margin-top: 10px;
+}
+h1{
+    font-size: 90%;
+}
+
+.red{
+     color: red;
+}
+
+.barrato{
+    text-decoration: line-through
+}
