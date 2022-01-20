@@ -8,8 +8,8 @@ body::after{
     content: "";
     display: table;
     clear: both;
-
 }
+
 body{
     width: 1000px;
     border: 1px solid black;
@@ -27,17 +27,41 @@ body{
     width: 100%;
 }
 
-.contenitore .heart{
-    padding: .7em;
+.heart{
+    padding: 0.7em;
     background-color: white;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
+}
+
+.rosso-e-verde{
+    font-size: 70%;
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 0;
+}
+
+.background-rosso{
+    background-color: rgb(236, 0, 55);
+    padding: .2em;
+}
+
+.background-verde{
+    background-color: rgb(2, 136, 89);
+    padding: .2em 0;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 80%;
 }
 
 div div{
     margin-top: 10px;
 }
+
 h1{
     font-size: 90%;
 }
